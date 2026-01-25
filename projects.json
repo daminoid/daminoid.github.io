@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Master 1000 de tennis",
+    "tags": ["php", "html", "sql"],
+    "description": "Projet web en équipe réalisé en L2 Informatique au Havre.",
+    "link": "https://github.com/killianreine/site-web-master-1000",
+    "banner": {
+      "type": "shine",
+      "bgColor": "#341502",
+      "bgHover": "#FF8E0D",
+      "img": "ressources/banniere/silhouette/tennis.png",
+      "imgHover": "ressources/banniere/silhouette/tennis-hover.png"
+    }
+  },
+  
+  {
+    "title": "EQFGWT!",
+    "tags": ["python"],
+    "description": "Projet personnel de chiffrement/déchiffrement en Python.",
+    "link": "https://github.com/daminoid/messageCode",
+    "banner": {
+      "bgColor": "#142B07",
+      "bgHover": "#47A811",
+      "img": "ressources/banniere/silhouette/code.png",
+      "imgHover": "ressources/banniere/silhouette/code-hover.png"
+    },
+    "note": "Ce projet est un ancien projet datant de lorsque je découvrais Python, mon premier langage de programmation. Il ne reflète pas mes compétences actuelles."
+  }
+
+
+]

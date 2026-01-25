@@ -1,0 +1,88 @@
+/*DEBUT DE LA GESTION DES BOXS*/
+.masonry-grid {
+    column-count: 2;
+    column-gap: 1rem;
+}
+
+.masonry-item {
+    break-inside: avoid;
+    margin-bottom: 1rem;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .masonry-grid {
+        column-count: 1;
+    }
+}
+
+
+/* DEBUT DES BANNIERES */
+.banner {
+    position: relative;
+    overflow: hidden;
+
+    height: 120px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+
+    /* Fond dynamique */
+    background-color: var(--bg-color);
+    background-image: var(--img-normal);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+
+    transition: background-color 0.4s ease, filter 0.3s ease;
+}
+
+/* Quand on survole la box → change couleur + image */
+.box:hover .banner {
+    background-color: var(--bg-hover);
+    background-image: var(--img-hover);
+    filter: brightness(1.1);
+}
+
+/* Reflet */
+.banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 50%;
+    height: 100%;
+
+    background: linear-gradient(120deg,
+            transparent 0%,
+            rgba(255, 255, 255, 0.45) 50%,
+            transparent 100%);
+
+    transform: skewX(-20deg);
+    pointer-events: none;
+}
+
+/* Animation en boucle tant que survolé */
+.box:hover .banner::after {
+    animation: shine 3s ease-in-out infinite;
+}
+
+@keyframes shine {
+    from {
+        left: -150%;
+    }
+
+    to {
+        left: 150%;
+    }
+}
+
+/* Titre au-dessus du reflet */
+.banner .title {
+    position: relative;
+    z-index: 1;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+/* FIN DES BANNIERES */

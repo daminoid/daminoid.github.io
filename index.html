@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio Daminoid</title>
+  <link rel="icon" href="ressources/icone/simple.ico" type="image/x-icon">
+
+  <!-- Bulma -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="test.css">
+
+
+
+</head>
+
+
+    <body>
+        
+        <section class="hero">
+            <div class="hero-body">
+                <div class="columns">
+                    <div class="column is-narrow">
+                        <figure class="image is-128x128">
+                            <img src="ressources/simple.jpg" />
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <p class="title">Damien Bonnegent - daminoid</p>
+                        <p>Étudiant en Licence 3 Informatique au Havre. Malheureusement, cette page n'est pas encore prête, mais n'hésitez pas à revenir y jeter un coup d'oeil plus tard ! Pour patienter, vous pouvez aller voir un projet scolaire sur lequel j'ai travaillé, ou alors mon compte LinkedIn ! 
+                        </p>      
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!--Menu à gauche-->
+        <div class="columns">
+            <div class="column is-narrow">
+                <aside class="menu pl-4 is-hidden-mobile">
+                    <p class="menu-label">Mes Comptes</p>
+                    <ul class="menu-list">
+                        <li><a href="https://github.com/daminoid" target="_blank"><i class="fa-brands fa-github"></i> Github</a></li>
+                        <li><a href="https://www.linkedin.com/in/damien-bonnegent-899716298/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+                    </ul>
+                    <p class="menu-label">Tags</p>
+                    <ul class="menu-list">
+                        <li><a href="#" onclick="filterProjects('all')">Tous</a></li>
+                        <li><a href="#" onclick="filterProjects('php')">#php</a></li>
+                        <li><a href="#" onclick="filterProjects('html')">#html</a></li>
+                        <li><a href="#" onclick="filterProjects('sql')">#sql</a></li>
+                        <li><a href="#" onclick="filterProjects('python')">#python</a></li>
+                    </ul>
+
+                </aside>
+            </div>
+            <!--Début de la partie corps-->
+            <div class="column pr-6">
+                <div class="masonry-grid" id="projects-container">
+
+
+                
+
+                    
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
