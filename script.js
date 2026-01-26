@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function loadProjects(tag = "all") {
     container.innerHTML = "";
 
-    fetch('projects.json')
+    fetch('projects.json', { cache: "no-cache" })
       .then(res => res.json())
       .then(projects => {
         projects.forEach(project => {

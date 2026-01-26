@@ -25,6 +25,20 @@
       "imgHover": "ressources/banniere/silhouette/code-hover.png"
     },
     "note": "Ce projet est un ancien projet datant de lorsque je découvrais Python, mon premier langage de programmation. Il ne reflète pas mes compétences actuelles."
+  },
+
+  {
+    "title": "VidVault",
+    "tags": ["python"],
+    "description": "Projet personnel permettant de gérer une base de données locale pour conserver vos vidéos favorites.",
+    "link": "https://github.com/daminoid/vidVault",
+    "banner": {
+      "bgColor": "#300A33",
+      "bgHover": "#FB99FF",
+      "img": "ressources/banniere/silhouette/vault.png",
+      "imgHover": "ressources/banniere/silhouette/vault-hover.png"
+    },
+    "note": "Ce projet n'est pas assez avancé, et n'est pas utilisable en l'état."
   }
 
 
