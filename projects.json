@@ -39,6 +39,45 @@
       "imgHover": "ressources/banniere/silhouette/vault-hover.png"
     },
     "note": "Ce projet n'est pas assez avancé, et n'est pas utilisable en l'état."
+  },
+
+  {
+    "title": "Traceur de signaux binaires",
+    "tags": ["java", "python"],
+    "description": "Une interface codée en Java permettant de visualiser des signaux à partir d'une trame binaire saisie.",
+    "link": "https://github.com/daminoid/traceur-signaux-binaires",
+    "banner": {
+      "bgColor": "#341502",
+      "bgHover": "#FF8E0D",
+      "img": "ressources/banniere/silhouette/tennis.png",
+      "imgHover": "ressources/banniere/silhouette/tennis-hover.png"
+    }
+  },
+
+  {
+    "title": "Analyse ABR vs ARN",
+    "tags": ["java"],
+    "description": "Un programme permettant de générer des CSV et des graphiques comparant l'efficacité des ARN et des ABR.",
+    "link": "https://github.com/daminoid/arbres-recherches-insertion-analyse-java",
+    "banner": {
+      "bgColor": "#341502",
+      "bgHover": "#FF8E0D",
+      "img": "ressources/banniere/silhouette/tennis.png",
+      "imgHover": "ressources/banniere/silhouette/tennis-hover.png"
+    }
+  },
+
+  {
+    "title": "Suricate Alerte",
+    "tags": ["processing"],
+    "description": "Un prototype de jeu de réflexes où vous devez aider un suricate à reconnaître des prédateurs !",
+    "link": "https://github.com/daminoid/jeu-memoire-reflexe-processing",
+    "banner": {
+      "bgColor": "#341502",
+      "bgHover": "#FF8E0D",
+      "img": "ressources/banniere/silhouette/tennis.png",
+      "imgHover": "ressources/banniere/silhouette/tennis-hover.png"
+    }
   }
 
 
