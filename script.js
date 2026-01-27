@@ -26,7 +26,12 @@ document.addEventListener('DOMContentLoaded', () => {
                   <p class="title is-5">${project.title}</p>
                 </div>
                 <div class="p-4">
-                  <p class="mb-3">#${projectTags.join(" #")}</p>
+                  <p class="mb-3">
+                    ${projectTags.map(tag => 
+                      `<a href="#" onclick="filterProjects('${tag}')" class="tag is-link mr-1">#${tag}</a>`
+                    ).join("")}
+                  </p>
+
                   <p class="mb-3">${project.description}</p>
                   
                   ${project.note ? `
