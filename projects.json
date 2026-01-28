@@ -47,10 +47,10 @@
     "description": "Une interface codée en Java permettant de visualiser des signaux à partir d'une trame binaire saisie.",
     "link": "https://github.com/daminoid/traceur-signaux-binaires",
     "banner": {
-      "bgColor": "#341502",
-      "bgHover": "#FF8E0D",
-      "img": "ressources/banniere/silhouette/tennis.png",
-      "imgHover": "ressources/banniere/silhouette/tennis-hover.png"
+      "bgColor": "#1A237E",
+      "bgHover": "#3949AB",
+      "img": "ressources/banniere/silhouette/bin.png",
+      "imgHover": "ressources/banniere/silhouette/bin-hover.png"
     }
   },
 
@@ -60,10 +60,10 @@
     "description": "Un programme permettant de générer des CSV et des graphiques comparant l'efficacité des ARN et des ABR.",
     "link": "https://github.com/daminoid/arbres-recherches-insertion-analyse-java",
     "banner": {
-      "bgColor": "#341502",
-      "bgHover": "#FF8E0D",
-      "img": "ressources/banniere/silhouette/tennis.png",
-      "imgHover": "ressources/banniere/silhouette/tennis-hover.png"
+      "bgColor": "#004D40",
+      "bgHover": "#00796B",
+      "img": "ressources/banniere/silhouette/abr.png",
+      "imgHover": "ressources/banniere/silhouette/abr-hover.png"
     }
   },
 
@@ -73,12 +73,11 @@
     "description": "Un prototype de jeu de réflexes où vous devez aider un suricate à reconnaître des prédateurs !",
     "link": "https://github.com/daminoid/jeu-memoire-reflexe-processing",
     "banner": {
-      "bgColor": "#341502",
-      "bgHover": "#FF8E0D",
-      "img": "ressources/banniere/silhouette/tennis.png",
-      "imgHover": "ressources/banniere/silhouette/tennis-hover.png"
+      "bgColor": "#8B4513",
+      "bgHover": "#A0522D",
+      "img": "ressources/banniere/silhouette/lion.png",
+      "imgHover": "ressources/banniere/silhouette/lion-hover.png"
     }
   }
-
 
 ]
