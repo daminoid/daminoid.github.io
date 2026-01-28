@@ -43,7 +43,7 @@
 
   {
     "title": "Traceur de signaux binaires",
-    "tags": ["java", "python"],
+    "tags": ["java"],
     "description": "Une interface codée en Java permettant de visualiser des signaux à partir d'une trame binaire saisie.",
     "link": "https://github.com/daminoid/traceur-signaux-binaires",
     "banner": {
@@ -56,7 +56,7 @@
 
   {
     "title": "Analyse ABR vs ARN",
-    "tags": ["java"],
+    "tags": ["java", "python"],
     "description": "Un programme permettant de générer des CSV et des graphiques comparant l'efficacité des ARN et des ABR.",
     "link": "https://github.com/daminoid/arbres-recherches-insertion-analyse-java",
     "banner": {
