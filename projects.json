@@ -12,6 +12,19 @@
       "imgHover": "ressources/banniere/silhouette/tennis-hover.png"
     }
   },
+
+  {
+    "title": "Calcul du CRC d'un message binaire",
+    "tags": ["java"],
+    "description": "Un outil pédagogique en Java pour calculer et vérifier le CRC d’un message binaire avec un polynôme générateur.",
+    "link": "https://github.com/daminoid/crc-java",
+    "banner": {
+      "bgColor": "#1A237E",
+      "bgHover": "#3949AB",
+      "img": "ressources/banniere/silhouette/bin.png",
+      "imgHover": "ressources/banniere/silhouette/bin-hover.png"
+    }
+  },
   
   {
     "title": "EQFGWT!",
@@ -28,29 +41,15 @@
   },
 
   {
-    "title": "VidVault",
-    "tags": ["python"],
-    "description": "Projet personnel permettant de gérer une base de données locale pour conserver vos vidéos favorites.",
-    "link": "https://github.com/daminoid/vidVault",
-    "banner": {
-      "bgColor": "#300A33",
-      "bgHover": "#FB99FF",
-      "img": "ressources/banniere/silhouette/vault.png",
-      "imgHover": "ressources/banniere/silhouette/vault-hover.png"
-    },
-    "note": "Ce projet n'est pas assez avancé, et n'est pas utilisable en l'état."
-  },
-
-  {
     "title": "Traceur de signaux binaires",
     "tags": ["java"],
     "description": "Une interface codée en Java permettant de visualiser des signaux à partir d'une trame binaire saisie.",
     "link": "https://github.com/daminoid/traceur-signaux-binaires",
     "banner": {
-      "bgColor": "#1A237E",
-      "bgHover": "#3949AB",
-      "img": "ressources/banniere/silhouette/bin.png",
-      "imgHover": "ressources/banniere/silhouette/bin-hover.png"
+      "bgColor": "#632637",
+      "bgHover": "#FF99B5",
+      "img": "ressources/banniere/silhouette/trm.png",
+      "imgHover": "ressources/banniere/silhouette/trm-hover.png"
     }
   },
 
@@ -61,9 +60,22 @@
     "link": "https://github.com/daminoid/arbres-recherches-insertion-analyse-java",
     "banner": {
       "bgColor": "#004D40",
-      "bgHover": "#00796B",
+      "bgHover": "#21B8A6",
       "img": "ressources/banniere/silhouette/abr.png",
       "imgHover": "ressources/banniere/silhouette/abr-hover.png"
+    }
+  },
+
+  {
+    "title": "Calcul d'un code de Hamming",
+    "tags": ["java"],
+    "description": "Implémentation en Java du code de Hamming pour le codage et la détection d’erreurs sur des mots binaires, accompagnée d’une interface utilisateur.",
+    "link": "https://github.com/daminoid/hamming-java",
+    "banner": {
+      "bgColor": "#1A237E",
+      "bgHover": "#3949AB",
+      "img": "ressources/banniere/silhouette/bin.png",
+      "imgHover": "ressources/banniere/silhouette/bin-hover.png"
     }
   },
 
@@ -74,7 +86,7 @@
     "link": "https://github.com/daminoid/jeu-memoire-reflexe-processing",
     "banner": {
       "bgColor": "#8B4513",
-      "bgHover": "#A0522D",
+      "bgHover": "#F2B666",
       "img": "ressources/banniere/silhouette/lion.png",
       "imgHover": "ressources/banniere/silhouette/lion-hover.png"
     }

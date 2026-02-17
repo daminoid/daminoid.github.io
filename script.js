@@ -7,6 +7,15 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('projects.json', { cache: "no-cache" })
       .then(res => res.json())
       .then(projects => {
+        // Précharger toutes les images hover pour éviter le délai au survol
+        projects.forEach(project => {
+          if (project.banner && project.banner.imgHover) {
+            const preloadImg = new Image();
+            preloadImg.src = project.banner.imgHover;
+          }
+        });
+
+        // Afficher les projets filtrés
         projects.forEach(project => {
           const projectTags = project.tags || [];
 
