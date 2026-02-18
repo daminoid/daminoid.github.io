@@ -47,7 +47,7 @@
     "link": "https://github.com/daminoid/traceur-signaux-binaires",
     "banner": {
       "bgColor": "#632637",
-      "bgHover": "#FF99B5",
+      "bgHover": "#3B0931",
       "img": "ressources/banniere/silhouette/trm.png",
       "imgHover": "ressources/banniere/silhouette/trm-hover.png"
     }
